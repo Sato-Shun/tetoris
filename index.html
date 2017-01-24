@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Tetris</title>
+	<link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../Arctext/js/jquery.arctext.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="sidearea">
+			<div class="guide">
+				<p class="guide_title">Operation</p>
+				<div class="box">
+					<ul class="guide_txt">
+						 <li>spave key : start</li>
+						 <li>↑ : rotate mino</li>
+						 <li>→ ↓ ← : translate mino</li>
+						 <li>esc key : reset</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<p id="scorelabel">score</p>
+			<div class="score_box">
+				<p id="score">0</p>
+			</div>
+		
+		</div>
+
+		<div class="main">
+			<canvas id="field" width="300" height="600"></canvas>
+		</div>
+
+		<div class="sub">
+			<p id="sub_text">Next Mino</p>
+			<canvas id="next_field" width="180" height="180"></canvas>
+		</div>
+	</div>
+		<script type="text/javascript" src="./tetris.js"></script>
+		<script type="text/javascript">
+			$('#sub_text').arctext({radius:130});
+			$('#scorelabel').arctext({radius:130});
+		</script>
+</body>
+</html>

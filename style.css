@@ -1,0 +1,114 @@
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul {
+	list-style :none;
+}
+		body {
+			
+			background:#2B96DC;
+		}
+
+		.container {
+			
+		}
+
+		.sidearea {
+			display:inline-block;
+			vertical-align:top;
+			text-align:center;
+			margin:40px 100px 0 100px;
+		}
+
+		.guide {
+			background:#2D3E50;
+			width: 300px;
+			height: 200px;
+			margin-bottom: 150px;
+		}
+
+		.guide_title {
+			font-size: 25px;
+			font-weight: bold;
+			color: white;
+			text-align: center;
+		}
+
+		.guide_txt {
+			margin-top: 20px;
+		}
+
+		.guide_txt li {
+			font-size: 20px;
+			font-weight: bold;
+			color:white;
+		}
+
+		.score_box {
+			width:150px;
+			height:150px;
+			background: white;
+			border-radius:50%;
+			margin: 0 auto;
+		}
+
+		#scorelabel {
+			font-size: 40px;
+			font-weight: bold;
+			color: #FFC300;
+		}
+
+		#score {
+			line-height: 150px;
+			font-size: 50px;
+			font-weight: bold;
+			color: #2D3E50;
+		}
+
+		#field {
+			border:solid 5px gray;
+			border-radius:5px;
+		}
+
+		.main {
+			display:inline-block;
+			width:310px;
+			margin: 40px 100px 0 0;
+		}
+
+		.sub {
+			display:inline-block;
+			vertical-align:top;
+			width:200px;
+			margin-top: 30px;
+		}
+
+		#next_field {
+			vertical-align:top;
+			border:solid 5px #EE5849;
+			border-radius:50%;
+			background:#FFC300;
+		}
+
+		#sub_text {
+			font-size:30px;
+			font-weight:bold;
+			margin-bottom:-5px;
+			margin-left:10px;
+			color:white;
+		}
